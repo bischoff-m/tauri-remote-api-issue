@@ -18,8 +18,12 @@
       }
     ],
     "security": {
-      "csp": null
-    }
+      "csp": null,
+      "capabilities": [
+        "remote-access-capability"
+      ]
+    },
+    "withGlobalTauri": true
   },
   "bundle": {
     "active": true,
